@@ -9,7 +9,7 @@
               <h3>Description: {{tour.description}}</h3>
               <h6>Author: {{tour.author}}</h6>
               <h6>Price: {{tour.price}}</h6>
-              <router-link :to="{ name: 'EditTour', params: { id: tour._id } }">edit</router-link>
+              <button><router-link :to="{ name: 'EditTour', params: { id: tour._id } }">edit</router-link></button>
               <button @click="deletee(tour)">delete</button>
               <hr>
             </div>
