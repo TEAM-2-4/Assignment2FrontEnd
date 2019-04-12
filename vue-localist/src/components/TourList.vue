@@ -23,8 +23,8 @@
 <script>
 import router from '../router'
 
-const API_URL = 'http://localhost:3000/tours';
-const API_DELETE = 'http://localhost:3000/delete-tour';
+const API_URL = 'https://localist-backend.herokuapp.com/tours';
+const API_DELETE = 'https://localist-backend.herokuapp.com/delete-tour';
 
 export default {
   name: 'TourList',
