@@ -45,7 +45,7 @@
 </template>
 
 <script>
-const API_URL = 'http://localhost:3000/add-guide';
+const API_URL = 'https://localist-backend.herokuapp.com/add-guide';
 
 export default {
   name: 'AddGuide',

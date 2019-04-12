@@ -45,7 +45,7 @@
 </template>
 
 <script>
-const API_URL = 'http://localhost:3000/add-tour';
+const API_URL = 'https://localist-backend.herokuapp.com/add-tour';
 
 export default {
   name: 'AddTour',

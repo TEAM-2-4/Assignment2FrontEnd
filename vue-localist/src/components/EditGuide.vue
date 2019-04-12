@@ -48,8 +48,8 @@
 import router from '../router'
 
 
-const API_URL = 'http://localhost:3000/edit-guide';
-const API_FIND = 'http://localhost:3000/guide-single';
+const API_URL = 'https://localist-backend.herokuapp.com/edit-guide';
+const API_FIND = 'https://localist-backend.herokuapp.com/guide-single';
 
 export default {
   name: 'EditGuide',
