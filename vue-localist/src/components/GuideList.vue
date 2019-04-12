@@ -23,8 +23,8 @@
 <script>
 import router from '../router'
 
-const API_URL = 'http://localhost:3000/guides';
-const API_DELETE = 'http://localhost:3000/delete-guide';
+const API_URL = 'https://localist-backend.herokuapp.com/guides';
+const API_DELETE = 'https://localist-backend.herokuapp.com/delete-guide';
 
 export default {
   name: 'GuideList',
